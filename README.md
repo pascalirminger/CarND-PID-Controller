@@ -25,7 +25,7 @@ The PID implementation can be found in the source file [PID.cpp](./src/PID.cpp):
 
 * **Proportionnal component (P)**
   
-  The proportional component of the controller tries to steer the car toward the center line (against the cross-track error). If used along, the car overshoots the central line very easily and go out of the road very quickly. Here is an example video with only the P component in use: [p_only.mov](./videos/p_only.mov).
+  The proportional component of the controller tries to steer the car toward the center line (against the cross-track error). If used along, the car overshoots the central line very easily and go out of the road very quickly. An example video with only the P component in use can be found [p_only.mov](https://youtu.be/-tySXvjEfcI).
 
 * **Integral component (I)**
   
