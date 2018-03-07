@@ -37,7 +37,7 @@ The PID implementation can be found in the source file [PID.cpp](./src/PID.cpp):
 
 ### Describe how the final hyperparameters were chosen.
 
-The hyperparameters were chosen manually by try and error.
+The hyperparameters were chosen manually by try and error. First, I was making sure the car can stay on the road using a proportional coefficient. As a result, the car overshoots. Therefore, I was adding a differential coefficient trying to overcome the overshooting. The integral coefficient only moved the car out of the road; so, it stayed at zero.
 
 ## Simulation
 
